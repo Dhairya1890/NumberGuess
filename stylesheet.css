@@ -24,9 +24,10 @@ h3 {
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5%;
 }
 #max,
 #min {
@@ -58,8 +59,8 @@ h3 {
   opacity: 0.5;
 }
 .message-area {
-  width: 600px;
-  height: 100px;
+  width: 50%;
+  height: 80%;
   background-color: #000;
   border-radius: 10px;
   text-align: left;
@@ -72,7 +73,7 @@ h3 {
     background: transparent;
     border: 1px solid white;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
     font-family: Rubik Glitch;
     border-radius: 10px;
@@ -84,7 +85,9 @@ h3 {
     min-width: 100%;
     min-height: 100%;
 }
-body {
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(5,50,8,1) 37%, rgba(65,124,77,1) 100%);
+body{
+  background-image: url("greenBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
